@@ -1,21 +1,14 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 
-export const metadata: Metadata = {
-  title: "TaniyaTechAI | AI Solutions, Salesforce Agents & Innovation",
-  description: "TaniyaTechAI builds AI agents, Salesforce intelligence, enterprise automation, SaaS products and innovation solutions for real-world business problems."
+export const metadata = {
+  title: "ThanyaTechAI | AI Solutions, Salesforce Agents & Product Innovation",
+  description: "ThanyaTechAI builds AI solutions, Salesforce AI agents, intelligent automation, AI products, and innovation-driven technology consulting."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <Nav />
-        {children}
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,13 +1,19 @@
-import { Hero, Section, Cards } from "../../components/Page";
+import { PageShell, SectionHero, Card, VideoPanel } from "../../components/Page";
 
-export default function ServicesPage() {
-  return <main><Hero eyebrow="Services" title="AI consulting, architecture and implementation services." text="We help clients identify high-value AI opportunities, design the solution architecture, build prototypes and deliver production-ready intelligent workflows." />
-  <Section title="Core services"><Cards items={[
-    { title: "AI Strategy & Roadmaps", text: "Assess business problems, identify AI use cases, prioritize ROI and create execution plans." },
-    { title: "Agentic AI Development", text: "Design autonomous agents, workflow agents, multi-skill agents and human-in-the-loop approvals." },
-    { title: "Enterprise Automation", text: "Automate repetitive workflows across CRM, operations, service, support and data systems." },
-    { title: "Salesforce AI Consulting", text: "AI-powered Salesforce solution architecture, Agentforce ideas, CRM copilots and service automation." },
-    { title: "SaaS MVP Development", text: "Build cloud-ready minimum viable products for new AI product ideas." },
-    { title: "AI Integration", text: "Connect AI with APIs, databases, Salesforce, documents, knowledge bases and enterprise apps." }
-  ]} /></Section></main>;
+export default function Page() {
+  return (
+    <PageShell>
+      <SectionHero eyebrow="Services" title="AI services for strategy, automation, integration, and intelligent transformation." text="We help clients move from idea to architecture to working AI solution. Our services include consulting, Salesforce AI, automation, AI product design, and data intelligence." />
+      <section className="grid">
+        <Card title="AI Strategy & Consulting" text="Identify high-value AI use cases, design business roadmaps, assess readiness, and build practical implementation plans." />
+<Card title="Agentic AI Solutions" text="Design AI agents that can reason, retrieve context, execute workflows, call tools, and support teams across business functions." />
+<Card title="Salesforce AI Architecture" text="Build Salesforce AI agents, multi-skill agents, Agentforce-ready flows, CRM automation, and enterprise data-connected experiences." />
+<Card title="Intelligent Automation" text="Automate repetitive business processes using AI, APIs, workflows, integrations, and human approval checkpoints." />
+<Card title="AI Product Engineering" text="Build prototypes, MVPs, internal tools, SaaS platforms, dashboards, and AI-powered customer portals." />
+<Card title="Data & AI Analytics" text="Turn enterprise data into insights, recommendations, predictions, and decision-support experiences." />
+      </section>
+      
+      
+    </PageShell>
+  );
 }

@@ -1,13 +1,19 @@
-import { Hero, Section, Cards } from "../../components/Page";
+import { PageShell, SectionHero, Card, VideoPanel } from "../../components/Page";
 
-export default function IndustriesPage() {
-  return <main><Hero eyebrow="Industries" title="AI solutions for industries where complexity creates opportunity." text="TaniyaTechAI is designed to support multiple industries where AI can reduce friction, improve decisions and create intelligent operations." />
-  <Section title="Focus industries"><Cards items={[
-    { title: "Manufacturing", text: "AI for quality, maintenance, production planning, operations intelligence and workflow automation." },
-    { title: "Healthcare", text: "AI assistance for operations, documentation, patient experience, administrative workflows and insight generation." },
-    { title: "Salesforce Ecosystem", text: "CRM intelligence, service automation, Agentforce concepts and Salesforce solution architecture support." },
-    { title: "Professional Services", text: "Knowledge agents, proposal acceleration, project intelligence and internal automation." },
-    { title: "Small Businesses", text: "Affordable AI websites, automation, customer support, lead handling and operations tools." },
-    { title: "Future Technology", text: "Surveying technologies, smart systems, digital twins, data intelligence and new AI product ideas." }
-  ]} /></Section></main>;
+export default function Page() {
+  return (
+    <PageShell>
+      <SectionHero eyebrow="Industries" title="AI ideas across consulting, SaaS, healthcare, manufacturing, and enterprise operations." text="ThanyaTechAI is built to serve multiple industries where intelligence, automation, and data can create business value." />
+      <section className="grid">
+        <Card title="Technology Consulting" text="AI strategy, architecture, product development, Salesforce automation, and intelligent workflow design." />
+<Card title="SaaS & Product Startups" text="MVPs, AI agents, customer portals, dashboards, and product accelerators." />
+<Card title="Manufacturing" text="Quality insights, process optimization, automation, digital twins ideas, and operational intelligence." />
+<Card title="Healthcare & Life Sciences" text="Workflow assistance, documentation support, patient engagement ideas, and operational automation." />
+<Card title="Retail & Customer Experience" text="Personalization, support automation, feedback intelligence, and service improvements." />
+<Card title="Professional Services" text="Proposal automation, knowledge search, project assistants, and client delivery acceleration." />
+      </section>
+      
+      
+    </PageShell>
+  );
 }

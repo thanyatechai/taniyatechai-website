@@ -1,9 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
-  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8be9ff"/><stop offset="45%" stop-color="#7c5cff"/><stop offset="100%" stop-color="#21e6c1"/></linearGradient><radialGradient id="g2" cx="50%" cy="45%" r="60%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="45%" stop-color="#8be9ff" stop-opacity="0.65"/><stop offset="100%" stop-color="#7c5cff" stop-opacity="0.05"/></radialGradient></defs>
-  <rect width="120" height="120" rx="30" fill="#050812"/>
-  <circle cx="60" cy="60" r="53" fill="#07111f" stroke="url(#g1)" stroke-width="3"/>
-  <path d="M26 36h68M60 36v53" stroke="url(#g1)" stroke-width="9" stroke-linecap="round"/>
-  <path d="M35 88c16-39 34-39 50 0" fill="none" stroke="#21e6c1" stroke-width="7" stroke-linecap="round"/>
-  <path d="M31 68c16-17 41-17 58 0" fill="none" stroke="#7c5cff" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
-  <circle cx="31" cy="68" r="4" fill="#8be9ff"/><circle cx="60" cy="49" r="5" fill="url(#g2)"/><circle cx="89" cy="68" r="4" fill="#21e6c1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="42%" stop-color="#2575FF"/>
+      <stop offset="78%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#F04EFF"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#D6E5FF"/>
+      <stop offset="100%" stop-color="#7187A9"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="orb" cx="45%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#E6FBFF"/>
+      <stop offset="40%" stop-color="#1EA7FF"/>
+      <stop offset="78%" stop-color="#3C1B9E"/>
+      <stop offset="100%" stop-color="#120923"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="520" rx="36" fill="#061124"/>
+  <g opacity=".32">
+    <circle cx="1090" cy="190" r="128" fill="url(#orb)"/>
+    <path d="M980 100c80 30 164 29 235-1M960 160c93 45 203 46 282 0M967 238c91 35 180 35 262 0M1032 64c-35 86-35 171 0 255M1105 62c-10 95-10 178 0 255M1180 92c32 71 30 144-2 213" stroke="#B5F5FF" stroke-width="2" fill="none"/>
+    <g fill="#CFFFFF">
+      <circle cx="1030" cy="115" r="5"/><circle cx="1105" cy="82" r="5"/><circle cx="1180" cy="128" r="5"/>
+      <circle cx="990" cy="205" r="5"/><circle cx="1108" cy="206" r="6"/><circle cx="1212" cy="208" r="5"/>
+      <circle cx="1036" cy="284" r="5"/><circle cx="1172" cy="282" r="5"/>
+    </g>
+  </g>
+  <g transform="translate(132 60)">
+    <path d="M75 14h360c22 0 34 25 20 43L417 103H285v248h-85V103H60L28 57C14 37 30 14 75 14z" fill="url(#silver)" stroke="#A8D6FF" stroke-width="3"/>
+    <path d="M280 72c52 37 52 114 0 150c41 18 53 77 13 114c-27 25-73 21-107 7c41-38 43-92 5-129c36-35 36-80 0-121c32-20 59-31 89-21z" fill="#061124"/>
+    <path d="M44 150h110l55 34M25 210h130l55 8M58 276h98l54-35M95 332h88l35-42" stroke="#00D9FF" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <g fill="#061124" stroke="#DFFBFF" stroke-width="5">
+      <circle cx="44" cy="150" r="13"/><circle cx="25" cy="210" r="13"/><circle cx="58" cy="276" r="13"/><circle cx="95" cy="332" r="13"/>
+      <circle cx="220" cy="184" r="11"/><circle cx="220" cy="218" r="11"/><circle cx="220" cy="242" r="11"/><circle cx="220" cy="290" r="11"/>
+    </g>
+    <path d="M505 358L672 25l168 333h-90l-36-76H632l-36 76h-91zM665 216h49l-25-55z" fill="url(#g1)" stroke="#B5F5FF" stroke-width="4"/>
+    <path d="M50 364C270 415 568 389 872 250C700 420 405 476 118 423z" fill="url(#g1)" filter="url(#glow)"/>
+    <path d="M610 354C802 325 1008 242 1160 110" stroke="url(#g1)" stroke-width="18" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M1164 102l22 18l26-11l-17 25l17 25l-28-9l-20 20l3-29l-23-15l28-6z" fill="#E9F8FF" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(120 425)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="76" letter-spacing="12" font-weight="800" fill="url(#silver)">THANYA</text>
+    <text x="504" y="0" font-family="Arial, Helvetica, sans-serif" font-size="76" letter-spacing="7" font-weight="800" fill="url(#g1)">TECHAI</text>
+    <text x="0" y="54" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="8" fill="#DFF7FF">INNOVATE. SOLVE. TRANSFORM.</text>
+    <text x="620" y="54" font-family="Arial, Helvetica, sans-serif" font-size="20" letter-spacing="4" fill="#9FE8FF">AI SOLUTIONS  |  SALESFORCE AGENTS  |  PRODUCTS  |  AUTOMATION</text>
+  </g>
 </svg>

@@ -1,26 +1,32 @@
-# TaniyaTechAI Website
+# ThanyaTechAI Website
 
-Fixed Next.js website package for TaniyaTechAI / Thanya Technologies LLC.
+Correct brand name: **ThanyaTechAI**  
+Domain: **https://www.thanyatechai.com**  
+Email: **info@thanyatechai.com**
 
-## Local run
-```bash
+## Local Run
+```powershell
 npm install
 npm run dev
 ```
 Open http://localhost:3000
 
-## Build test
-```bash
-npm run build
+## Deploy
+```powershell
+git add .
+git commit -m "Update ThanyaTechAI brand and AI content"
+git push
 ```
 
-## Deploy to Vercel
-1. Push all files to GitHub.
-2. Import the repository in Vercel.
-3. Framework should auto-detect as Next.js.
-4. Deploy.
-5. Add domain: taniyatechai.com
-6. In Namecheap DNS use Vercel's recommended records.
+Vercel will automatically redeploy.
 
-## Contact email
-info@taniyatechai.com
+## Updated Files
+- `public/brand-mark.svg`
+- `public/hero-brand.svg`
+- `components/Logo.tsx`
+- `app/page.tsx`
+- all page files under `app/*/page.tsx`
+- `app/globals.css`
+
+## Notes
+This package removes wrong TaniyaTechAI text and replaces it with the correct **ThanyaTechAI** brand across logo, pages, metadata, and contact email.

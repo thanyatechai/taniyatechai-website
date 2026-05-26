@@ -1,7 +1,6 @@
-import Link from "next/link";
 import Logo from "./Logo";
 
-const links = [
+const nav = [
   ["Home", "/"],
   ["About", "/about"],
   ["Services", "/services"],
@@ -10,18 +9,18 @@ const links = [
   ["Products", "/products"],
   ["Innovation", "/innovation"],
   ["Industries", "/industries"],
+  ["Resources", "/resources"],
   ["Contact", "/contact"]
 ];
 
 export default function Nav() {
   return (
-    <header className="nav-shell">
-      <nav className="nav container">
-        <Link href="/" className="nav-logo"><Logo /></Link>
-        <div className="nav-links">
-          {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
-        </div>
+    <header className="nav">
+      <Logo />
+      <nav>
+        {nav.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
       </nav>
+      <a className="navCta" href="mailto:info@thanyatechai.com">Let&apos;s Talk</a>
     </header>
   );
 }

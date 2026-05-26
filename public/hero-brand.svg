@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="980" viewBox="0 0 1800 980" role="img" aria-labelledby="title desc">
+  <title id="title">ThanyaTechAI brand hero</title>
+  <desc id="desc">AI solutions, Salesforce agents, intelligent automation, product innovation, and real-world impact.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8FCFF"/>
+      <stop offset="0.52" stop-color="#EEF7FF"/>
+      <stop offset="1" stop-color="#F7F1FF"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#03102B"/>
+      <stop offset="1" stop-color="#091D4F"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.38" stop-color="#1668FF"/>
+      <stop offset="0.72" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#F04EFF"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.48" stop-color="#D9E8FF"/>
+      <stop offset="1" stop-color="#66799D"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#1649C8" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="980" fill="url(#bg)"/>
+  <g opacity="0.22" stroke="#7EDFFF" stroke-width="2" fill="none">
+    <path d="M0 190C260 80 420 280 650 180S1120 10 1800 180"/>
+    <path d="M0 790C350 610 530 870 910 690s540-420 890-260"/>
+  </g>
+
+  <g transform="translate(270 55)" filter="url(#softShadow)">
+    <g transform="scale(1.02)">
+      <path d="M80 30h365c28 0 42 32 24 54l-42 50H288v257h-92V134H57L23 82C5 56 25 30 80 30z" fill="url(#silver)" stroke="#9FD7FF" stroke-width="4"/>
+      <path d="M286 92c60 44 60 125 0 169c46 21 58 82 15 122c-30 27-82 23-122 7c48-44 49-103 4-146c42-40 42-91 0-139c37-23 68-36 103-13z" fill="#071638"/>
+      <path d="M45 172h115l58 36M24 240h139l55 8M62 312h101l55-37M105 373h88l38-47" stroke="#00D9FF" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <g fill="#F8FCFF" stroke="#027BFF" stroke-width="5">
+        <circle cx="45" cy="172" r="14"/><circle cx="24" cy="240" r="14"/><circle cx="62" cy="312" r="14"/><circle cx="105" cy="373" r="14"/>
+        <circle cx="230" cy="208" r="12"/><circle cx="230" cy="248" r="12"/><circle cx="230" cy="275" r="12"/><circle cx="230" cy="326" r="12"/>
+      </g>
+      <path d="M518 392L696 40l178 352h-96l-39-84H652l-39 84h-95zM685 235h54l-27-62z" fill="url(#neon)" stroke="#BFF7FF" stroke-width="4"/>
+      <g transform="translate(820 55)">
+        <path d="M0 0a210 210 0 1 1 0 420a210 210 0 1 1 0-420" fill="url(#dark)" opacity="0.96"/>
+        <g stroke="#8BEAFF" stroke-width="2" opacity="0.88">
+          <path d="M40 80L140 48L245 92L315 190L246 318L115 348L38 250Z" fill="none"/>
+          <path d="M40 80L245 92M140 48L246 318M315 190L38 250M115 348L245 92M38 250L140 48" fill="none"/>
+        </g>
+        <g fill="#EFFFFF">
+          <circle cx="40" cy="80" r="7"/><circle cx="140" cy="48" r="7"/><circle cx="245" cy="92" r="7"/><circle cx="315" cy="190" r="7"/><circle cx="246" cy="318" r="7"/><circle cx="115" cy="348" r="7"/><circle cx="38" cy="250" r="7"/>
+        </g>
+      </g>
+      <path d="M70 405C315 455 610 422 950 280C765 465 430 525 135 468z" fill="url(#neon)" filter="url(#glow)"/>
+      <path d="M635 400C845 365 1090 255 1250 115" stroke="url(#neon)" stroke-width="19" fill="none" stroke-linecap="round" filter="url(#glow)"/>
+      <path d="M1263 93l28 28l40-13l-24 38l24 38l-42-13l-26 32l1-43l-37-24l41-11z" fill="#FFFFFF" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <g transform="translate(255 540)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="88" letter-spacing="15" font-weight="900" fill="#061638">THANYA</text>
+    <text x="630" y="0" font-family="Arial, Helvetica, sans-serif" font-size="88" letter-spacing="10" font-weight="900" fill="url(#neon)">TECHAI</text>
+    <line x1="100" y1="52" x2="470" y2="52" stroke="#0A63FF" stroke-width="5"/>
+    <text x="525" y="65" font-family="Arial, Helvetica, sans-serif" font-size="30" letter-spacing="11" fill="#061638">INNOVATE. SOLVE. TRANSFORM.</text>
+    <line x1="1070" y1="52" x2="1435" y2="52" stroke="#8A3CFF" stroke-width="5"/>
+  </g>
+
+  <g transform="translate(165 700)" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#061638">
+    <g><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">AI STRATEGY</text><text y="122" font-size="18">&amp; CONSULTING</text><path d="M-22 -2c0-17 13-30 30-30s30 13 30 30s-13 30-30 30h-30v-30z" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+    <g transform="translate(300 0)"><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">SALESFORCE</text><text y="122" font-size="18">AI AGENTS</text><path d="M-30 5a30 23 0 0 1 55-13a23 20 0 0 1 8 39h-65a18 18 0 0 1 2-26z" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+    <g transform="translate(600 0)"><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">INTELLIGENT</text><text y="122" font-size="18">AUTOMATION</text><path d="M-28 -28h56v56h-56zM-10 -10h20v20h-20z" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+    <g transform="translate(900 0)"><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">AI PRODUCT</text><text y="122" font-size="18">DEVELOPMENT</text><path d="M-32 25L0 42l32-17v-50L0-42l-32 17zM0-42v84M-32-25L0-8l32-17" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+    <g transform="translate(1200 0)"><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">DATA &amp; AI</text><text y="122" font-size="18">ANALYTICS</text><path d="M-35 30h70M-25 30V5M0 30v-20M25 30v-45M-35-18l25 10l25-22l20 8" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+    <g transform="translate(1500 0)"><circle cx="0" cy="0" r="58" fill="#F9FCFF" stroke="url(#neon)" stroke-width="5"/><text y="92" font-size="22" font-weight="800">INNOVATION</text><text y="122" font-size="18">WORK</text><path d="M-30 28c25-6 48-30 58-63c-33 10-57 33-63 58l20-5zM10-15l18 18" stroke="#126DFF" stroke-width="4" fill="none"/></g>
+  </g>
+
+  <text x="900" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#061638">
+    We build intelligent solutions that solve real-world problems and create lasting impact.
+  </text>
+</svg>
